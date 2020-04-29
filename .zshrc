@@ -98,7 +98,7 @@ export DOTNET_CLI_TELEMETRY_OPTOUT=1
 # Virtualenvwrapper
 source $HOME/.local/bin/virtualenvwrapper_lazy.sh
 # hub
-eval "$(hub alias -s)"
+# eval "$(hub alias -s)"
 
 # The next line updates PATH for the Google Cloud SDK.
 if [ -f '/home/lesnuages/downloads/google-cloud-sdk/path.zsh.inc' ]; then . '/home/lesnuages/downloads/google-cloud-sdk/path.zsh.inc'; fi
